@@ -11,6 +11,17 @@
 		EBD71B0329E582DA0077739D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B0229E582DA0077739D /* ContentView.swift */; };
 		EBD71B0529E582DE0077739D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD71B0429E582DE0077739D /* Assets.xcassets */; };
 		EBD71B0829E582DE0077739D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD71B0729E582DE0077739D /* Preview Assets.xcassets */; };
+		EBD71B1029E58BB60077739D /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = EBD71B0F29E58BB60077739D /* SwiftUICharts */; };
+		EBD71B1629E58E2C0077739D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B1429E58E2C0077739D /* Model.xcdatamodeld */; };
+		EBD71B1B29E58F0A0077739D /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B1729E58F0A0077739D /* Task+CoreDataClass.swift */; };
+		EBD71B1C29E58F0A0077739D /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B1829E58F0A0077739D /* Task+CoreDataProperties.swift */; };
+		EBD71B1D29E58F0A0077739D /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B1929E58F0A0077739D /* User+CoreDataClass.swift */; };
+		EBD71B1E29E58F0A0077739D /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B1A29E58F0A0077739D /* User+CoreDataProperties.swift */; };
+		EBD71B2029E590A90077739D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B1F29E590A90077739D /* SearchBarView.swift */; };
+		EBD71B2229E590B70077739D /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B2129E590B70077739D /* AddTaskView.swift */; };
+		EBD71B2429E590C70077739D /* AddAdditionalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B2329E590C70077739D /* AddAdditionalInfoView.swift */; };
+		EBD71B2629E592010077739D /* SwiftUIChartHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B2529E592010077739D /* SwiftUIChartHelper.swift */; };
+		EBD71B2929E5ACEF0077739D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B2829E5ACEF0077739D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,16 @@
 		EBD71B0229E582DA0077739D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBD71B0429E582DE0077739D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBD71B0729E582DE0077739D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBD71B1529E58E2C0077739D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EBD71B1729E58F0A0077739D /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EBD71B1829E58F0A0077739D /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EBD71B1929E58F0A0077739D /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EBD71B1A29E58F0A0077739D /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EBD71B1F29E590A90077739D /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		EBD71B2129E590B70077739D /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		EBD71B2329E590C70077739D /* AddAdditionalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAdditionalInfoView.swift; sourceTree = "<group>"; };
+		EBD71B2529E592010077739D /* SwiftUIChartHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChartHelper.swift; sourceTree = "<group>"; };
+		EBD71B2829E5ACEF0077739D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD71B1029E58BB60077739D /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +73,14 @@
 		EBD71AFF29E582DA0077739D /* Whatodo */ = {
 			isa = PBXGroup;
 			children = (
+				EBD71B2729E5ACD60077739D /* Extensions */,
+				EBD71B1329E58C190077739D /* Model */,
+				EBD71B1229E58C020077739D /* View */,
+				EBD71B1129E58BEE0077739D /* Controller */,
 				EBD71B0029E582DA0077739D /* WhatodoApp.swift */,
-				EBD71B0229E582DA0077739D /* ContentView.swift */,
 				EBD71B0429E582DE0077739D /* Assets.xcassets */,
 				EBD71B0629E582DE0077739D /* Preview Content */,
+				EBD71B1429E58E2C0077739D /* Model.xcdatamodeld */,
 			);
 			path = Whatodo;
 			sourceTree = "<group>";
@@ -65,6 +91,44 @@
 				EBD71B0729E582DE0077739D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBD71B1129E58BEE0077739D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBD71B2529E592010077739D /* SwiftUIChartHelper.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBD71B1229E58C020077739D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBD71B0229E582DA0077739D /* ContentView.swift */,
+				EBD71B1F29E590A90077739D /* SearchBarView.swift */,
+				EBD71B2129E590B70077739D /* AddTaskView.swift */,
+				EBD71B2329E590C70077739D /* AddAdditionalInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBD71B1329E58C190077739D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBD71B1729E58F0A0077739D /* Task+CoreDataClass.swift */,
+				EBD71B1829E58F0A0077739D /* Task+CoreDataProperties.swift */,
+				EBD71B1929E58F0A0077739D /* User+CoreDataClass.swift */,
+				EBD71B1A29E58F0A0077739D /* User+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBD71B2729E5ACD60077739D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EBD71B2829E5ACEF0077739D /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,9 @@
 			dependencies = (
 			);
 			name = Whatodo;
+			packageProductDependencies = (
+				EBD71B0F29E58BB60077739D /* SwiftUICharts */,
+			);
 			productName = Whatodo;
 			productReference = EBD71AFD29E582DA0077739D /* Whatodo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +178,9 @@
 				Base,
 			);
 			mainGroup = EBD71AF429E582DA0077739D;
+			packageReferences = (
+				EBD71B0E29E58BB60077739D /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
 			productRefGroup = EBD71AFE29E582DA0077739D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +208,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBD71B0329E582DA0077739D /* ContentView.swift in Sources */,
+				EBD71B2429E590C70077739D /* AddAdditionalInfoView.swift in Sources */,
 				EBD71B0129E582DA0077739D /* WhatodoApp.swift in Sources */,
+				EBD71B1D29E58F0A0077739D /* User+CoreDataClass.swift in Sources */,
+				EBD71B2229E590B70077739D /* AddTaskView.swift in Sources */,
+				EBD71B1E29E58F0A0077739D /* User+CoreDataProperties.swift in Sources */,
+				EBD71B2029E590A90077739D /* SearchBarView.swift in Sources */,
+				EBD71B2929E5ACEF0077739D /* Extensions.swift in Sources */,
+				EBD71B1B29E58F0A0077739D /* Task+CoreDataClass.swift in Sources */,
+				EBD71B1C29E58F0A0077739D /* Task+CoreDataProperties.swift in Sources */,
+				EBD71B1629E58E2C0077739D /* Model.xcdatamodeld in Sources */,
+				EBD71B2629E592010077739D /* SwiftUIChartHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +419,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EBD71B0E29E58BB60077739D /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EBD71B0F29E58BB60077739D /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBD71B0E29E58BB60077739D /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		EBD71B1429E58E2C0077739D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBD71B1529E58E2C0077739D /* Model.xcdatamodel */,
+			);
+			currentVersion = EBD71B1529E58E2C0077739D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EBD71AF529E582DA0077739D /* Project object */;
 }
